@@ -67,7 +67,7 @@
             // splitContainer.Panel1
             // 
             this.splitContainer.Panel1.Controls.Add(this.mainTableLayoutPanel);
-            this.splitContainer.Size = new System.Drawing.Size(564, 472);
+            this.splitContainer.Size = new System.Drawing.Size(706, 472);
             this.splitContainer.SplitterDistance = 409;
             this.splitContainer.TabIndex = 0;
             // 
@@ -84,7 +84,7 @@
             this.mainTableLayoutPanel.RowCount = 2;
             this.mainTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.mainTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.mainTableLayoutPanel.Size = new System.Drawing.Size(564, 409);
+            this.mainTableLayoutPanel.Size = new System.Drawing.Size(706, 409);
             this.mainTableLayoutPanel.TabIndex = 0;
             // 
             // topGroupBox
@@ -93,7 +93,7 @@
             this.topGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.topGroupBox.Location = new System.Drawing.Point(3, 3);
             this.topGroupBox.Name = "topGroupBox";
-            this.topGroupBox.Size = new System.Drawing.Size(558, 198);
+            this.topGroupBox.Size = new System.Drawing.Size(700, 198);
             this.topGroupBox.TabIndex = 0;
             this.topGroupBox.TabStop = false;
             this.topGroupBox.Text = "Ученик";
@@ -121,7 +121,7 @@
             this.topTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.topTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.topTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.topTableLayoutPanel.Size = new System.Drawing.Size(552, 172);
+            this.topTableLayoutPanel.Size = new System.Drawing.Size(694, 172);
             this.topTableLayoutPanel.TabIndex = 0;
             // 
             // secondNameLable
@@ -131,7 +131,7 @@
             this.secondNameLable.Dock = System.Windows.Forms.DockStyle.Fill;
             this.secondNameLable.Location = new System.Drawing.Point(3, 0);
             this.secondNameLable.Name = "secondNameLable";
-            this.secondNameLable.Size = new System.Drawing.Size(270, 43);
+            this.secondNameLable.Size = new System.Drawing.Size(341, 43);
             this.secondNameLable.TabIndex = 0;
             this.secondNameLable.Text = "Фамилия";
             // 
@@ -142,7 +142,7 @@
             this.nameLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.nameLabel.Location = new System.Drawing.Point(3, 43);
             this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(270, 43);
+            this.nameLabel.Size = new System.Drawing.Size(341, 43);
             this.nameLabel.TabIndex = 1;
             this.nameLabel.Text = "Имя";
             // 
@@ -153,7 +153,7 @@
             this.fatherNameLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.fatherNameLabel.Location = new System.Drawing.Point(3, 86);
             this.fatherNameLabel.Name = "fatherNameLabel";
-            this.fatherNameLabel.Size = new System.Drawing.Size(270, 43);
+            this.fatherNameLabel.Size = new System.Drawing.Size(341, 43);
             this.fatherNameLabel.TabIndex = 2;
             this.fatherNameLabel.Text = "Отчество";
             // 
@@ -164,32 +164,32 @@
             this.classNumberLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.classNumberLabel.Location = new System.Drawing.Point(3, 129);
             this.classNumberLabel.Name = "classNumberLabel";
-            this.classNumberLabel.Size = new System.Drawing.Size(270, 43);
+            this.classNumberLabel.Size = new System.Drawing.Size(341, 43);
             this.classNumberLabel.TabIndex = 3;
             this.classNumberLabel.Text = "Класс";
             // 
             // secondNameInput
             // 
             this.secondNameInput.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.secondNameInput.Location = new System.Drawing.Point(279, 3);
+            this.secondNameInput.Location = new System.Drawing.Point(350, 3);
             this.secondNameInput.Name = "secondNameInput";
-            this.secondNameInput.Size = new System.Drawing.Size(270, 27);
+            this.secondNameInput.Size = new System.Drawing.Size(341, 27);
             this.secondNameInput.TabIndex = 4;
             // 
             // nameInput
             // 
             this.nameInput.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.nameInput.Location = new System.Drawing.Point(279, 46);
+            this.nameInput.Location = new System.Drawing.Point(350, 46);
             this.nameInput.Name = "nameInput";
-            this.nameInput.Size = new System.Drawing.Size(270, 27);
+            this.nameInput.Size = new System.Drawing.Size(341, 27);
             this.nameInput.TabIndex = 5;
             // 
             // fatherNameInput
             // 
             this.fatherNameInput.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.fatherNameInput.Location = new System.Drawing.Point(279, 89);
+            this.fatherNameInput.Location = new System.Drawing.Point(350, 89);
             this.fatherNameInput.Name = "fatherNameInput";
-            this.fatherNameInput.Size = new System.Drawing.Size(270, 27);
+            this.fatherNameInput.Size = new System.Drawing.Size(341, 27);
             this.fatherNameInput.TabIndex = 6;
             // 
             // classComboBox
@@ -201,9 +201,9 @@
             "9Б",
             "10А",
             "10Б"});
-            this.classComboBox.Location = new System.Drawing.Point(279, 132);
+            this.classComboBox.Location = new System.Drawing.Point(350, 132);
             this.classComboBox.Name = "classComboBox";
-            this.classComboBox.Size = new System.Drawing.Size(270, 28);
+            this.classComboBox.Size = new System.Drawing.Size(341, 28);
             this.classComboBox.TabIndex = 7;
             // 
             // bottomTableLayoutPanel
@@ -224,7 +224,7 @@
             this.bottomTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.bottomTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.bottomTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.bottomTableLayoutPanel.Size = new System.Drawing.Size(558, 199);
+            this.bottomTableLayoutPanel.Size = new System.Drawing.Size(700, 199);
             this.bottomTableLayoutPanel.TabIndex = 1;
             // 
             // labelForCountTask
@@ -233,7 +233,7 @@
             this.labelForCountTask.Dock = System.Windows.Forms.DockStyle.Top;
             this.labelForCountTask.Location = new System.Drawing.Point(3, 0);
             this.labelForCountTask.Name = "labelForCountTask";
-            this.labelForCountTask.Size = new System.Drawing.Size(273, 20);
+            this.labelForCountTask.Size = new System.Drawing.Size(344, 20);
             this.labelForCountTask.TabIndex = 0;
             this.labelForCountTask.Text = "Кол-во";
             this.labelForCountTask.Click += new System.EventHandler(this.label1_Click);
@@ -241,9 +241,9 @@
             // numericUpDownCountTask
             // 
             this.numericUpDownCountTask.Dock = System.Windows.Forms.DockStyle.Top;
-            this.numericUpDownCountTask.Location = new System.Drawing.Point(282, 3);
+            this.numericUpDownCountTask.Location = new System.Drawing.Point(353, 3);
             this.numericUpDownCountTask.Name = "numericUpDownCountTask";
-            this.numericUpDownCountTask.Size = new System.Drawing.Size(273, 27);
+            this.numericUpDownCountTask.Size = new System.Drawing.Size(344, 27);
             this.numericUpDownCountTask.TabIndex = 1;
             this.numericUpDownCountTask.ValueChanged += new System.EventHandler(this.numericUpDownCountTask_ValueChanged);
             // 
@@ -253,7 +253,7 @@
             this.hardRadioButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.hardRadioButton.Location = new System.Drawing.Point(3, 36);
             this.hardRadioButton.Name = "hardRadioButton";
-            this.hardRadioButton.Size = new System.Drawing.Size(273, 24);
+            this.hardRadioButton.Size = new System.Drawing.Size(344, 24);
             this.hardRadioButton.TabIndex = 2;
             this.hardRadioButton.TabStop = true;
             this.hardRadioButton.Text = "Сложно";
@@ -263,9 +263,9 @@
             // 
             this.easyRadioButton.AutoSize = true;
             this.easyRadioButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.easyRadioButton.Location = new System.Drawing.Point(282, 36);
+            this.easyRadioButton.Location = new System.Drawing.Point(353, 36);
             this.easyRadioButton.Name = "easyRadioButton";
-            this.easyRadioButton.Size = new System.Drawing.Size(273, 24);
+            this.easyRadioButton.Size = new System.Drawing.Size(344, 24);
             this.easyRadioButton.TabIndex = 3;
             this.easyRadioButton.TabStop = true;
             this.easyRadioButton.Text = "Легко";
@@ -276,7 +276,7 @@
             this.createTaskButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.createTaskButton.Location = new System.Drawing.Point(3, 66);
             this.createTaskButton.Name = "createTaskButton";
-            this.createTaskButton.Size = new System.Drawing.Size(273, 33);
+            this.createTaskButton.Size = new System.Drawing.Size(344, 33);
             this.createTaskButton.TabIndex = 4;
             this.createTaskButton.Text = "Создать задание";
             this.createTaskButton.UseVisualStyleBackColor = true;
@@ -286,7 +286,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(564, 472);
+            this.ClientSize = new System.Drawing.Size(706, 472);
             this.Controls.Add(this.splitContainer);
             this.Name = "mainForm";
             this.Text = "Тесты";

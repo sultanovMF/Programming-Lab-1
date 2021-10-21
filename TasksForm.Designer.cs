@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "TasksForm";
             this.Text = "Задания";
+            this.Load += new System.EventHandler(this.TasksForm_Load);
             this.ResumeLayout(false);
 
         }

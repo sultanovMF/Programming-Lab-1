@@ -22,22 +22,24 @@ namespace Programming_Lab_1
 
             var panel = new TableLayoutPanel();
             panel.Dock = DockStyle.Fill;
-            panel.ColumnCount = 3;
+            panel.ColumnCount = 2;
+
+            panel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33));
+            panel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 66));
+
             panel.RowCount = ((int)countTasks) + 1;
             panel.AutoScroll = true;
-            for (int i = 0; i < panel.ColumnCount; ++i) 
-                panel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33));
-            
-                //panel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.AutoSize, 50F));
-                
-                
-            //for (int i = 0; i < panel.RowCount; ++i)
-            //    panel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.AutoSize, 50F));
 
             groupBox.Controls.Add(panel);
 
             for (int r = 0; r < panel.RowCount - 1; ++r)
             {
+                var toolPanel = new TableLayoutPanel();
+                toolPanel.Dock = DockStyle.Fill;
+                toolPanel.ColumnCount = 2;
+                toolPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50));
+                toolPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50));
+                toolPanel.RowStyles.Add(new RowStyle(SizeType.AutoSize));
                 var task = new Label();
                 task.Dock = DockStyle.Top;
                 if (isEasy)
@@ -48,8 +50,7 @@ namespace Programming_Lab_1
                 {
                     task.Text = $"Сложное задание #{r+1}";
                 }
-         
-
+                
                 panel.Controls.Add(task, 0, r);
 
                 var firstRB = new RadioButton();
@@ -75,8 +76,9 @@ namespace Programming_Lab_1
                 }
 
 
-                panel.Controls.Add(firstRB, 1, r);
-                panel.Controls.Add(secondRB, 2, r);
+                toolPanel.Controls.Add(firstRB, 0, 0);
+                toolPanel.Controls.Add(secondRB, 1, 0);
+                panel.Controls.Add(toolPanel, 1, r);
 
             }
             var submitBrn = new Button();
@@ -91,6 +93,11 @@ namespace Programming_Lab_1
             MessageBox.Show("Поздравляем! Вы прошли тест! Проверять мы его не будем, поставим вам зачет автоматом! Всего хорошего, берегите себя и соблюдайте масочный режим!");
         }
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void TasksForm_Load(object sender, EventArgs e)
         {
 
         }
